@@ -81,4 +81,5 @@ if __name__ == "__main__":
             writeObject(readings[-int(FULL_BUFFER_SIZE/2):], fromInputFileToOutputFile(file)+str(i)+'.pkl')
             i += 1 
             del readings
+
     pass
